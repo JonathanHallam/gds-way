@@ -1,5 +1,5 @@
 # Host to use for canonical URL generation (without trailing slash)
-host: https://gds-way.cloudapps.digital
+host: https://jons-way.cloudapps.digital
 service_link: /
 
 # Header-related options
@@ -10,12 +10,9 @@ description: Technical standards and guidance used by teams building software at
 # Links to show on right-hand-side of header
 header_links:
   Documentation: /
-  GitHub: https://github.com/alphagov/gds-way
+  GitHub: https://github.com/JonathanHallam/gds-way
 
 enable_search: true
-
-# Tracking ID from Google Analytics (e.g. UA-XXXX-Y)
-ga_tracking_id: UA-111409592-1
 
 # Table of contents depth – how many levels to include in the table of contents.
 # If your ToC is too long, reduce this number and we'll only show higher-level
@@ -24,3 +21,7 @@ max_toc_heading_level: 6
 
 # Prevent robots from indexing (e.g. whilst in development)
 prevent_indexing: false
+
+# Ownership for page reviews
+default_owner_slack: '#gds-way'
+owner_slack_workspace: gds

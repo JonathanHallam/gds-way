@@ -1,10 +1,10 @@
 ---
 applications:
-- name: gds-way
+- name: jons-way
   memory: 64M
-  path: ./build
+  path: build
   buildpack: staticfile_buildpack
-- name: gds-tech-docs
+- name: re-build-sandbox
   memory: 64M
   path: ./redirect
   buildpack: staticfile_buildpack
